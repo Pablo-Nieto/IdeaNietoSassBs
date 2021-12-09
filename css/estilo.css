@@ -1,0 +1,439 @@
+@charset "UTF-8";
+/*modificaciones generales*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif; }
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%; }
+
+header {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  padding: 0; }
+
+.header {
+  background-color: #ffba26; }
+
+.logo {
+  width: 110px;
+  height: 110px;
+  margin: 20px; }
+
+.logoIndex {
+  width: 110px;
+  height: 110px;
+  margin-top: 20px;
+  margin-left: 5px; }
+
+.barraNav {
+  font-size: 25px;
+  color: #000000;
+  top: 15px;
+  list-style: none; }
+
+.barraNavIndex {
+  font-size: 25px;
+  color: #000000;
+  position: relative;
+  text-align: right;
+  top: 29px;
+  list-style: none; }
+
+.li {
+  display: inline-block;
+  padding: 20px; }
+  .li a {
+    color: #000000 !important; }
+    .li a:hover {
+      color: #C70039 !important; }
+
+header .navegacion__menu--activo {
+  color: #C70039 !important; }
+
+.contenido {
+  background-color: #ffeeca;
+  margin-bottom: 0px;
+  padding-top: 20px; }
+
+a {
+  text-decoration: none; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+img {
+  margin: 30px; }
+
+footer {
+  background-color: #FFE349;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.footer__table {
+  margin-left: 30px;
+  margin-top: 80px;
+  font-size: 17px; }
+
+.footer__logos {
+  margin-top: 65px; }
+
+.footer__maps {
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 16px; }
+
+.tabla {
+  border-collapse: separate; }
+
+/*vista mobile*/
+@media only screen and (max-width: 768px) {
+  .barraNav {
+    width: 90%;
+    top: -100px;
+    padding-left: 250px; }
+  .footer__table {
+    margin-left: 65px; }
+  .footer__logos {
+    padding-left: 40px; }
+  .footer__maps {
+    padding-left: 55px; } }
+
+/*index vista desktop*/
+.titulo__index {
+  font-size: 55px;
+  text-align: center;
+  border-bottom-style: solid;
+  width: 90%;
+  margin-top: 159px;
+  margin-bottom: 0;
+  margin-left: 98px; }
+
+.informacion__img {
+  margin-left: 50px; }
+
+.informacion__texto {
+  font-size: 30px;
+  text-align: center;
+  width: 1120px;
+  margin-left: 10px; }
+
+.informacion__img2 {
+  margin-left: 196px;
+  margin-bottom: 7px; }
+
+.informacion__texto2 {
+  font-size: 30px;
+  width: 640px;
+  margin-right: 22px; }
+
+.caja {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px; }
+
+.segundaCaja {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5%; }
+
+/*index vista mobile*/
+@media only screen and (max-width: 768px) {
+  .titulo__index {
+    width: 80%;
+    font-size: 55px;
+    margin-left: 40px;
+    margin-top: 184px; }
+  .informacion__img {
+    width: 80%;
+    margin-left: 34px; }
+  .informacion__texto {
+    font-size: 30px;
+    width: 80%;
+    margin-left: -7px; }
+  .informacion__img2 {
+    width: 65%;
+    margin-left: 20px; }
+  .informacion__texto2 {
+    font-size: 30px;
+    width: 80%;
+    margin-top: 50px; }
+  .caja {
+    margin-top: 2px; }
+  .segundaCaja {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; } }
+
+/*nosotros vista desktop*/
+.título__nosotros {
+  font-size: 55px;
+  text-align: center;
+  border-bottom-style: solid;
+  width: 90%;
+  margin-top: 159px;
+  margin-bottom: 0;
+  margin-left: 98px; }
+
+.nosotros__img {
+  margin-top: 20px; }
+
+.nosotros__text {
+  font-size: 32px;
+  text-align: center;
+  margin-left: -30px;
+  margin-top: 65px;
+  margin-bottom: 52px;
+  width: 1200px; }
+
+.caja__nosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/*index vista mobile*/
+@media only screen and (max-width: 768px) {
+  .título__nosotros {
+    width: 80%;
+    font-size: 55px;
+    margin-left: 40px;
+    top: 21px; }
+  .caja__nosotros {
+    top: 19px; }
+  .nosotros__img {
+    width: 85%;
+    margin-bottom: -50px; }
+  .nosotros__text {
+    width: 80%;
+    margin-left: 3px;
+    font-size: 24px; } }
+
+/*tienda vista desktop*/
+.titulo__nuestrosProductos {
+  font-size: 55px;
+  text-align: center;
+  border-bottom-style: solid;
+  width: 90%;
+  margin: auto;
+  margin-top: 159px; }
+
+.tienda__titulo {
+  font-size: 37px;
+  margin-top: 50px;
+  margin-left: 120px; }
+
+.tienda__titulo2 {
+  font-size: 37px;
+  margin-top: 50px; }
+
+.tienda__lista {
+  font-size: 25px;
+  margin-left: 150px; }
+
+.tienda__lista2 {
+  font-size: 25px;
+  margin-left: 50px; }
+
+.proximamente {
+  font-size: 37px;
+  padding-top: 120px; }
+
+.caja__tradicional {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.caja__gourmet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.caja__vegetariana {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.margin {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.paddingTop {
+  margin-top: 150px; }
+
+.caja__tienda {
+  margin-left: 420px;
+  margin-bottom: 47px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 52px; }
+
+/*tienda vista mobile*/
+@media only screen and (max-width: 768px) {
+  .titulo__nuestrosProductos {
+    width: 80%;
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 183px; }
+  .caja__tradicional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -130px; }
+  .caja__vegetariana {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -130px; }
+  .caja__gourmet {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-top: -130px; }
+  .tienda__titulo {
+    margin-left: 60px; }
+  .tienda__lista {
+    margin-left: 86px; }
+  .tienda__titulo2 {
+    margin-left: 60px; }
+  .tienda__lista2 {
+    margin-left: 86px; }
+  .margin {
+    margin-top: 30px;
+    margin-bottom: 40px; }
+  .margin--bottom {
+    margin-bottom: -30px; }
+  .caja__tienda {
+    margin-left: 10px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .proximamente {
+    margin-left: 28px; }
+  .tamaño {
+    width: 60%;
+    height: 60%;
+    margin-left: 70px; } }
+
+/*tienda vista desktop*/
+.titulo__preguntas {
+  font-size: 55px;
+  border-bottom-style: solid;
+  width: 90%;
+  margin-top: 136px; }
+
+.faq__checkbox {
+  display: none; }
+
+.asterisco {
+  margin-bottom: -80px;
+  margin-left: 90px;
+  margin-top: 34px;
+  font-size: 40px;
+  line-height: 45px; }
+
+.faq__pregunta {
+  font-size: 30px;
+  display: block;
+  margin-left: 110px;
+  padding-top: 31px; }
+
+.faq__respuesta {
+  font-size: 20px;
+  margin-left: 110px;
+  padding-bottom: 20px; }
+
+.texto--width {
+  width: 950px; }
+
+/*tienda vista mobile*/
+@media only screen and (max-width: 768px) {
+  .titulo__preguntas {
+    font-size: 52px;
+    width: 78%;
+    text-align: center;
+    margin-left: 34px;
+    margin-top: 188px; }
+  .asterisco {
+    margin-left: 12px;
+    margin-bottom: -80px; }
+  .faq__pregunta {
+    margin-left: 33px; }
+  .faq__respuesta {
+    margin-left: 17px; }
+  .texto--width {
+    width: 368px; } }
+
+/*contacto vista desktop*/
+.titulo {
+  margin-left: 98px;
+  margin-top: 131px;
+  margin-bottom: 50px;
+  font-size: 55px;
+  border-bottom-style: solid;
+  width: 90%; }
+
+.form {
+  font-size: 20px; }
+
+.formulario {
+  margin-left: 100px; }
+
+.formulario__text {
+  width: 1150px;
+  margin-bottom: 30px; }
+
+.formulario__email {
+  width: 1150px;
+  margin-bottom: 30px; }
+
+.formulario__checkbox__si {
+  margin-left: 60px;
+  margin-bottom: 30px; }
+
+.formulario__checkbox__no {
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+.formulario__textarea {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  width: 600px;
+  height: 150px; }
+
+.boton, .boton--reset, .boton--submit {
+  padding: 3px; }
+
+.boton--reset {
+  margin-left: 30px; }
+
+.boton--submit {
+  margin-bottom: 34px; }
+
+/*contacto vista mobile*/
+@media only screen and (max-width: 768px) {
+  .titulo {
+    width: 57%;
+    margin-left: 90px;
+    margin-top: 183px; }
+  .formulario {
+    margin-left: 30px; }
+  .formulario__text {
+    width: 329px; }
+  .formulario__email {
+    width: 329px; }
+  .formulario__textarea {
+    width: 333px; } }

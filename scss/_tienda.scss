@@ -1,0 +1,153 @@
+// var
+
+/*tienda vista desktop*/
+
+.titulo__nuestrosProductos {
+	font-size: 55px;
+	text-align: center;
+	border-bottom-style: solid;
+	width: 90%;
+	margin: auto; 
+	margin-top: 159px;
+}
+
+.tienda__titulo {
+	font-size: 37px;
+	margin-top: 50px;
+	margin-left: 120px;
+}
+
+.tienda__titulo2 {
+	font-size: 37px;
+	margin-top: 50px;
+}
+
+.tienda__lista {
+	font-size: 25px;
+	margin-left: 150px;
+}
+
+.tienda__lista2 {
+	font-size: 25px;
+	margin-left: 50px;
+}
+
+.proximamente {
+	font-size: 37px;
+	padding-top: 120px;
+}
+
+.caja__tradicional {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.caja__gourmet {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.caja__vegetariana {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.margin {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.paddingTop {
+	margin-top: 150px;
+}
+
+.caja__tienda {
+	margin-left: 420px;
+	margin-bottom: 47px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 52px;
+}
+
+/*tienda vista mobile*/
+
+@media only screen and (max-width: 768px) {
+	.titulo__nuestrosProductos {
+		width: 80%;
+		font-size: 50px;
+		margin-left: 40px;
+		margin-top:  183px;
+	}
+
+	.caja__tradicional {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-top: -130px;
+	}
+
+	.caja__vegetariana {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-top: -130px;
+	}
+
+	.caja__gourmet {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		margin-top: -130px;
+	}
+
+	.tienda__titulo {
+		margin-left: 60px;
+	}
+
+	.tienda__lista {
+		margin-left: 86px; 
+	}
+
+	.tienda__titulo2 {
+		margin-left: 60px;
+	}
+
+	.tienda__lista2 {
+		margin-left: 86px; 
+	}
+
+	.margin {
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	.margin--bottom {
+		margin-bottom: -30px;
+	}
+
+	@mixin flex-column-center{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.caja__tienda {
+		margin-left: 10px;
+		margin-top: 15px;
+		@include flex-column-center;
+	}
+
+	.proximamente {
+		margin-left: 28px;
+	}
+
+	.tamaño {
+		width: 60%;
+		height: 60%;
+		margin-left: 70px;
+	}
+}

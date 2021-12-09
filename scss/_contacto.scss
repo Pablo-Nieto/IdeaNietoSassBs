@@ -1,0 +1,88 @@
+// var
+
+/*contacto vista desktop*/
+
+.titulo{
+	margin-left: 98px;
+	margin-top: 131px;
+	margin-bottom: 50px;
+	font-size: 55px;
+	border-bottom-style: solid;
+	width: 90%;
+}
+
+.form {
+	font-size: 20px;
+}
+
+.formulario {
+	margin-left: 100px;
+}
+
+.formulario__text{
+	width: 1150px;
+	margin-bottom:30px;
+}
+
+.formulario__email {
+	width: 1150px;
+	margin-bottom:30px;
+}
+
+.formulario__checkbox__si {
+	margin-left: 60px;
+	margin-bottom: 30px;
+}
+
+.formulario__checkbox__no {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.formulario__textarea {
+	margin-top: 15px;
+	margin-bottom: 30px;
+	width: 600px;
+	height: 150px;
+}
+
+.boton {
+	padding: 3px;
+}
+
+.boton--reset {
+	@extend .boton;
+	margin-left: 30px;
+}
+
+.boton--submit {
+	@extend .boton;
+	margin-bottom: 34px;
+}
+
+
+/*contacto vista mobile*/
+
+@media only screen and (max-width: 768px) {
+	.titulo {
+		width: 57%;
+		margin-left: 90px;
+		margin-top: 183px;
+	}
+	.formulario {
+		margin-left: 30px;
+	}
+
+	.formulario__text {
+		width: 329px;
+	}
+
+	.formulario__email {
+		width: 329px;
+	}
+
+	.formulario__textarea {
+		width: 333px;
+	}
+	
+}
