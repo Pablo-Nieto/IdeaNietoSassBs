@@ -122,7 +122,8 @@ footer {
   font-size: 30px;
   text-align: center;
   width: 1120px;
-  margin-left: 10px; }
+  margin-left: 10px;
+  margin-top: 8px; }
 
 .informacion__img2 {
   margin-left: 196px;
@@ -393,11 +394,11 @@ footer {
   margin-left: 100px; }
 
 .formulario__text {
-  width: 1150px;
+  width: 600px;
   margin-bottom: 30px; }
 
 .formulario__email {
-  width: 1150px;
+  width: 600px;
   margin-bottom: 30px; }
 
 .formulario__checkbox__si {
@@ -423,6 +424,10 @@ footer {
 .boton--submit {
   margin-bottom: 34px; }
 
+.img__contacto {
+  margin-top: -13px;
+  margin-left: 173px; }
+
 /*contacto vista mobile*/
 @media only screen and (max-width: 768px) {
   .titulo {
@@ -436,4 +441,8 @@ footer {
   .formulario__email {
     width: 329px; }
   .formulario__textarea {
-    width: 333px; } }
+    width: 333px; }
+  .img__contacto {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 59px; } }

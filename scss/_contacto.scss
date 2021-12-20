@@ -20,12 +20,12 @@
 }
 
 .formulario__text{
-	width: 1150px;
+	width: 600px;
 	margin-bottom:30px;
 }
 
 .formulario__email {
-	width: 1150px;
+	width: 600px;
 	margin-bottom:30px;
 }
 
@@ -60,6 +60,11 @@
 	margin-bottom: 34px;
 }
 
+.img__contacto {
+	margin-top: -13px;
+	margin-left: 173px;
+}
+
 
 /*contacto vista mobile*/
 
@@ -85,4 +90,9 @@
 		width: 333px;
 	}
 	
+	.img__contacto {
+		width: 70%;
+		margin-top: 20px;
+		margin-left: 59px;
+	}
 }
